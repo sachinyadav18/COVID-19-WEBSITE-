@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+  }
+.row{margin:0;}
+
+.navbar{background-color: #1a0000}
+
+#htitle{
+    text-align: center;
+background-color:  #ffe6e6    ;
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    
+    color: #bc2e1e;
+
+text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+    border-left: 7px solid #5dabcd;
+    border-right: 7px solid #378ab4;
+    margin: 0;
+}
+.carousel img{height: 510px;
+    
+}
+/*services*/
+#serviceshead{
+    text-align: center;
+   color: #FFFFFF;
+background: #FFFFFF;
+text-shadow: 2px 2px 0 #1a0000
+, 2px -2px 0 #1a0000
+, -2px 2px 0 #4074b5, -2px -2px 0 #1a0000
+, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #1a0000
+, 0px -2px 0 #1a0000
+;
+}
+
+.service{
+    display: flex;
+   
+    margin: 20px;
+   
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 3px 3px 13px 4px rgba(255,4,0,0.39); 
+box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 3px 3px 13px 4px rgba(255,4,0,0.39);
+   
+    
+    
+}
+.servicetitle{
+   
+    border: 2px solid red;
+
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 20px;
+  
+
+    
+background: #CE0202;
+background: -moz-linear-gradient(left, #CE0202 0%, #A43939 50%, #C58080 100%);
+background: -webkit-linear-gradient(left, #CE0202 0%, #A43939 50%, #C58080 100%);
+background: linear-gradient(to right, #CE0202 0%, #A43939 50%, #C58080 100%);
+}
+.servicetitle a{ display:block;
+text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    line-height: 80px;
+   padding: 5%;
+ 
+    
+}
+.servicetitle a:hover{color: white}
+
+.servicetitle:hover{
+ 
+    background: #CE0202;
+    color: white;
+    
+}
+.servicedes{background-color:#C5C5C5;
+    position: relative;
+    border: 1px solid black;
+    font-size: 20px;
+    padding: 20px
+
+}
+/*numbers*/
+.numbers .row1 {display: flex;
+
+justify-content: center;
+    margin: 0 auto 0;    
+}
+.figure{text-align:;
+}
+
+
+.fhead{
+    border: 2px solid black;
+    height: 120px;
+    width: 120px;
+    line-height: 120px;
+    font-size: 50px;
+    text-align: center;
+    -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.fbody{
+    color: #330000;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+
+/*contact*/
+.contacts h3{
+    text-align: center;
+   
+    
+}
+.social{display: flex;
+justify-content: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  
+
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+    margin: 0 20px 0;
+
+}
+.fa:hover{color: red}
+.fb a{text-decoration: none}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+ padding: 20px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+     padding: 20px;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+     padding: 20px;
+}
+/*footer*/
+
+.footer{
+    border-top: 2px solid black;
+  text-align: center;
+    background-color:  #262626;
+    color: white;
+    margin: 0;
+}
+.links ul {
+    list-style-type: none;
+    text-align: center;
+}
+.links a{text-decoration: none}
+.address pre,.develop pre{
+    color: white;
+    margin-top: 10px;
+}
+
+    /*responsive webpage for diff screens*/
+@media only screen and (max-width:768px) {
+    .service{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .servicetitle {
+             border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 100%;
+        height: 70px;
+        line-height: 50px;
+        padding: 0;
+        
+    }
+    .servicetitle a{
+             line-height: 50px;
+            padding: 0;
+        word-spacing: normal;
+    }
+    .servicedes{
+        font-size:22px;
+        padding: 0;
+    } 
+    .even{display: flex;
+    flex-direction: column-reverse;}
+    .numbers .row1 {display: flex;
+justify-content: center;
+
+}
+    .numbers{text-align: center}
+    .fhead{
+        margin: 0 auto 0;
+    
+    }
+    
+    
+    .contacts h3{
+        font-size: 20px
+    }
+    
+    .figure{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+/*for bigger screens*/
+
+@media only screen and (min-width:1345px) {
+    .servicetitle a{line-height: 200px;
+    padding: 0;
+    }
+    
+}
